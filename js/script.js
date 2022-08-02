@@ -11,7 +11,7 @@ subTypeElement.addEventListener("change", function (e) {
 });
 
 subDurationElement.addEventListener("change", function (e) {
-  subType = Number(e.target.value);
+  subDuration = Number(e.target.value);
   //console.log(subDuration);
   updateSubscriptionDiv();
 });
